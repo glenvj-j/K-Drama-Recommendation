@@ -2,6 +2,9 @@ import streamlit as st
 import pandas as pd
 from sklearn.feature_extraction.text import CountVectorizer
 import time
+import warnings
+
+warnings.simplefilter(action='ignore')
 
 st.set_page_config(
     page_title="K-Drama Recomendation",
