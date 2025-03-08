@@ -4,7 +4,7 @@
 This Streamlit-based **K-Drama Recommendation System** provides personalized drama suggestions using **content-based filtering**. The model analyzes key drama attributes to recommend titles similar to the ones a user rates highly.
 
 > [!NOTE]
-> Streamlit : [View the App](https://docs.google.com/presentation/d/1b1LtrZdJf9H3O_uXwpsv4zk_prxyAwYF/edit#slide=id.p1)
+> Streamlit : [View the App](https://kdrama-app.streamlit.app/)
 
 > Latest Data 2023 | Dataset from [Kaggle](https://www.kaggle.com/datasets/ahbab911/top-250-korean-dramas-kdrama-dataset)
 
