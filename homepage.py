@@ -21,7 +21,10 @@ df['Tags'].fillna('Unknown',inplace=True)
 
 columns_all = [('Genre',0.44),('Main Cast',0.25),('Tags',0.2),('Network',0.01),('Content Rating',0.1)]
 all_df = []
-vect = CountVectorizer(tokenizer=lambda x:x.split(', '))
+
+vect = CountVectorizer()
+
+# vect = CountVectorizer(tokenizer=lambda x:x.split(', '))
 for x in range(len(columns_all)) :
     feature = vect.fit_transform(df[columns_all[x][0]])
     df_vector = pd.DataFrame(data=feature.toarray(),columns=vect.get_feature_names_out())
