@@ -1,8 +1,13 @@
-# K-Drama-Recommendation
+![header](https://github.com/user-attachments/assets/6b2806ad-88e0-4840-a991-975251276ebb)
+
+
+This Streamlit-based **K-Drama Recommendation System** provides personalized drama suggestions using **content-based filtering**. The model analyzes key drama attributes to recommend titles similar to the ones a user rates highly.
+
+> [!NOTE]
+> Streamlit : [View the App](https://docs.google.com/presentation/d/1b1LtrZdJf9H3O_uXwpsv4zk_prxyAwYF/edit#slide=id.p1)
 
 > Latest Data 2023 | Dataset from [Kaggle](https://www.kaggle.com/datasets/ahbab911/top-250-korean-dramas-kdrama-dataset)
 
-This Streamlit-based **K-Drama Recommendation System** provides personalized drama suggestions using **content-based filtering**. The model analyzes key drama attributes to recommend titles similar to the ones a user rates highly.
 
 ## 🚀 How It Works
 1. **User Input** – Enter **three K-Dramas** you’ve watched and rate them.
@@ -19,7 +24,8 @@ This Streamlit-based **K-Drama Recommendation System** provides personalized dra
 - **Content-Based Filtering** using genre, main cast, tags, network, and content rating.
 
 ## 📸 Screenshot
-![App Screenshot](screenshot.png)
+![App Screenshot](https://github.com/user-attachments/assets/54302b65-d275-4c07-8aa2-00aa7b76ca52)
+
 
 ---
 ### ⭐ Enjoy discovering your next favorite K-Drama!
