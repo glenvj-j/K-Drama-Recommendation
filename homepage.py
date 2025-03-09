@@ -12,6 +12,12 @@ st.set_page_config(
     layout="wide"
 )
 
+st.markdown("""
+    <meta property="og:title" content="K-Drama Recommendation App">
+    <meta property="og:description" content="Find the best K-Dramas based on your preferences!">
+    <meta property="og:image" content="https://raw.githubusercontent.com/glenvj-j/K-Drama-Recommendation/refs/heads/main/image/Kdrama.jpg">
+    <meta property="og:url" content="https://kdrama-app.streamlit.app/">
+""", unsafe_allow_html=True)
 
 # ------------------------------------------------------------------------------
 
